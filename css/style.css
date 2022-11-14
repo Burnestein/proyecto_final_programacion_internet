@@ -1,0 +1,31 @@
+h2.nombre-producto {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+h3.nombre-producto {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-shadow: .1em .1em 0 #555;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-img {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: all 400ms ease;
+}
+
+.card:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 800ms ease;
+}
+
