@@ -13,45 +13,52 @@
 </head>
 <body>
   <!-- Barra de navegacion-->
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="imagenes/yamaha_purple.svg" width="160px" height="80px"> </a>
+      <a class="navbar-brand" href="index.html"><img src="imagenes/yamaha_purple.svg" width="160px" height="80px"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Productos
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="pianos.html">Pianos</a></li>
+              <li><a class="dropdown-item" href="#">Instrumentos de teclado</a></li>
+              <li><a class="dropdown-item" href="#">Guitarras, bajos y amplificadores</a></li>
+              <li><a class="dropdown-item" href="#">Baterias</a></li>
+              <li><a class="dropdown-item" href="#">Instrumentos de viento, madera y metal</a></li>
+              <li><a class="dropdown-item" href="#">Instrumentos de arco</a></li>
+              <li><a class="dropdown-item" href="#">Percusión sinfónica</a></li>
+              <li><a class="dropdown-item" href="#">Sintetizadores</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Yamaha Motores</a></li>
             </ul>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link">Contacto</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Acerca de Yamaha</a>
+          </li>
+
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
       </div>
     </div>
   </nav>
 
   <!-- Carrusel -->
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -97,95 +104,148 @@
 
       </div>
       <div class="col-10">
-
-        <h2 class="nombre-producto">Productos</h2>
+        <!-- Grid productos-->
+        <h2>Productos</h2>
         
-        <div class="container text-center">
+        <div class="container-fluid text-center">
           
           <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="cont-productos">
               <div class="col">
-                <div class="card text-bg-dark h-100 border-0">
-                  <img src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
-                  <div class="card-img-overlay">
-                    <h3 class="nombre-producto ">Pianos</h5>
+                <a href="pianos.html">
+                  <div class="card text-bg-dark h-100 border-0">
+                    <img src="imagenes/productos/pianos.jpg" class="card-img rounded" alt="...">
+                    <div class="card-img-overlay">
+                      <h3 class="nombre-producto ">Pianos</h5>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
-            </div>
-            
+
 
             <div class="col">
-              <div class="card text-bg-dark h-100">
-                <img src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
+              <a href="">
+              <div class="card text-bg-dark h-100 border-0">
+                <img src="imagenes/productos/instrumentos-de-teclado.jpg" class="card-img rounded" alt="...">
                 <div class="card-img-overlay">
                   <h3 class="nombre-producto">Instrumentos de teclado</h5>
                 </div>
               </div>
+              </a>
             </div>
 
             <div class="col">
-              <div class="card text-bg-dark h-100">
+              <a href="">
+              <div class="card text-bg-dark h-100 border-0">
                 <img src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
                 <div class="card-img-overlay">
                   <h3 class="nombre-producto">Guitarras, Bajos & Amplificadores</h5>
                 </div>
               </div>
+            </a>
             </div>
 
             <div class="col">
-              <div class="card text-bg-dark h-100">
-                <img src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
+              <a href="">
+              <div class="card text-bg-dark h-100 border-0">
+                <img src="imagenes/productos/baterias.jpg" class="card-img rounded" alt="...">
                 <div class="card-img-overlay">
                   <h3 class="nombre-producto">Baterías</h5>
                 </div>
               </div>
+            </a>
             </div>
 
             <div class="col">
-              <div class="card text-bg-dark h-100">
-                <img src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
+              <a href="">
+              <div class="card text-bg-dark h-100 border-0">
+                <img src="imagenes/productos/instrumentos-de-viento.jpg" class="card-img rounded" alt="...">
                 <div class="card-img-overlay">
                   <h3 class="nombre-producto">Instrumentos de viento madera y metal</h5>
                 </div>
               </div>
+            </a>
             </div>
 
             <div class="col">
-              <div class="card text-bg-dark h-100">
-                <img src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
+              <a href="">
+              <div class="card text-bg-dark h-100 border-0">
+                <img src="imagenes/productos/instrumentos-de-arco.jpg" class="card-img rounded" alt="...">
                 <div class="card-img-overlay">
                   <h3 class="nombre-producto">Instrumentos de arco</h5>
                 </div>
               </div>
+            </a>
             </div>
 
             <div class="col">
-              <div class="card text-bg-dark h-100">
-                <img src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
+              <a href="">
+              <div class="card text-bg-dark h-100 border-0">
+                <img src="imagenes/productos/percusion-sinfonica.jpg" class="card-img rounded" alt="...">
                 <div class="card-img-overlay">
                   <h3 class="nombre-producto">Percusión Sinfónica</h5>
                 </div>
               </div>
+            </a>
             </div>
 
-
             <div class="col">
-              <div class="card text-bg-dark h-100">
-                <img src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
+              <a href="">
+              <div class="card text-bg-dark h-100 border-0">
+                <img src="imagenes/productos/sintetizadores.jpg" class="card-img rounded" alt="...">
                 <div class="card-img-overlay">
                   <h3 class="nombre-producto">Sintetizadores & Herramientas de producción musical</h5>
                 </div>
               </div>
+            </a>
             </div>
 
           </div>
 
         </div>
           
-      </div>
-      <div class="col-1">
+        <!--Redes sociales-->
+        <h2>Redes sociales</h2>
+        
+        <div class="container-fluid" style="padding-bottom: 56.25%; position:relative">
+          <iframe class="videoiframe" src="https://www.youtube.com/embed/Ow50FUu96QY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
+        <div class="container-fluid" style="position:relative">
+          <div class="row row-cols-1  row-cols-md-3 g-3 mt-5">
+
+            <div class="col">
+                <blockquote class="twitter-tweet"><p lang="es" dir="ltr">1º de Julio en Japón. 64 años de hacer historia...<a href="https://twitter.com/hashtag/HappyBirthdayYamaha?src=hash&amp;ref_src=twsrc%5Etfw">#HappyBirthdayYamaha</a> I <a href="https://twitter.com/hashtag/YamahaDay?src=hash&amp;ref_src=twsrc%5Etfw">#YamahaDay</a> I <a href="https://twitter.com/hashtag/TwoYamahasOnePassion?src=hash&amp;ref_src=twsrc%5Etfw">#TwoYamahasOnePassion</a> <a href="https://t.co/Wr9ZrcTXDH">pic.twitter.com/Wr9ZrcTXDH</a></p>&mdash; Yamaha de Mexico (@yamahademexico) <a href="https://twitter.com/yamahademexico/status/1145745300377788416?ref_src=twsrc%5Etfw">July 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+            
+            <div class="col">
+              <blockquote class="twitter-tweet"><p lang="es" dir="ltr">La Orquesta Sinfónica Nacional felicita a Rachid Bernal por obtener el primer lugar del IX Concurso Nacional de Piano Angélica Morales - YAMAHA. <a href="https://twitter.com/PalacioOficial?ref_src=twsrc%5Etfw">@PalacioOficial</a> <a href="https://twitter.com/bellasartesinba?ref_src=twsrc%5Etfw">@bellasartesinba</a> <a href="https://twitter.com/yamahademexico?ref_src=twsrc%5Etfw">@yamahademexico</a> <a href="https://t.co/fEyHB5VKsp">pic.twitter.com/fEyHB5VKsp</a></p>&mdash; OSN México (@OSN_MX) <a href="https://twitter.com/OSN_MX/status/1132283986766651392?ref_src=twsrc%5Etfw">May 25, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>              
+            </div>
+
+            <div class="col">
+              <blockquote class="twitter-tweet"><p lang="tl" dir="ltr">🎬Promo Yamaha Transacoustic LLTA<br>Soon🔥🔥🔥<a href="https://twitter.com/hashtag/adella?src=hash&amp;ref_src=twsrc%5Etfw">#adella</a> <a href="https://twitter.com/hashtag/yamaha?src=hash&amp;ref_src=twsrc%5Etfw">#yamaha</a> <a href="https://twitter.com/hashtag/acoustic?src=hash&amp;ref_src=twsrc%5Etfw">#acoustic</a> <a href="https://twitter.com/hashtag/guitars?src=hash&amp;ref_src=twsrc%5Etfw">#guitars</a> <a href="https://twitter.com/hashtag/rocknroll?src=hash&amp;ref_src=twsrc%5Etfw">#rocknroll</a> <a href="https://twitter.com/hashtag/onfire?src=hash&amp;ref_src=twsrc%5Etfw">#onfire</a> <a href="https://twitter.com/hashtag/rebel?src=hash&amp;ref_src=twsrc%5Etfw">#rebel</a> <a href="https://twitter.com/hashtag/nonstop?src=hash&amp;ref_src=twsrc%5Etfw">#nonstop</a> <a href="https://twitter.com/hashtag/goodvibes?src=hash&amp;ref_src=twsrc%5Etfw">#goodvibes</a> <a href="https://twitter.com/hashtag/transacoustic?src=hash&amp;ref_src=twsrc%5Etfw">#transacoustic</a> <a href="https://t.co/RMqSy5nG7e">pic.twitter.com/RMqSy5nG7e</a></p>&mdash; ★Adella🔥🎸 (@AdellaGuitar) <a href="https://twitter.com/AdellaGuitar/status/1130637933843820544?ref_src=twsrc%5Etfw">May 21, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
+            </div>
+
+            <div class="col">
+              <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Los invitamos a que nos acompañen a conocer al ganador del IX Concurso Nacional de Piano Angélica Morales-Yamaha<a href="https://t.co/vtU1Q1yRw4">https://t.co/vtU1Q1yRw4</a><a href="https://twitter.com/yamahademexico?ref_src=twsrc%5Etfw">@yamahademexico</a> <a href="https://twitter.com/bellasartesinba?ref_src=twsrc%5Etfw">@bellasartesinba</a> <a href="https://twitter.com/PalacioOficial?ref_src=twsrc%5Etfw">@PalacioOficial</a></p>&mdash; MúsicaINBAL (@MusicaINBA) <a href="https://twitter.com/MusicaINBA/status/1131218758243147776?ref_src=twsrc%5Etfw">May 22, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>              
+            </div>
+            
+            <div class="col">
+              <blockquote class="twitter-tweet"><p lang="es" dir="ltr">¡Esta es la <a href="https://twitter.com/hashtag/ImagenCervantina?src=hash&amp;ref_src=twsrc%5Etfw">#ImagenCervantina</a> de nuestra edición 47!<br><br>Realizada por Frida Villarreal Esquivel, estudiante de diseño de la <a href="https://twitter.com/UdeGuanajuato?ref_src=twsrc%5Etfw">@UdeGuanajuato</a> 👏👏👏 <a href="https://t.co/Gk1bwkHcyG">pic.twitter.com/Gk1bwkHcyG</a></p>&mdash; Festival Cervantino (@cervantino) <a href="https://twitter.com/cervantino/status/1129440018345340928?ref_src=twsrc%5Etfw">May 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
+            </div>
+
+            <div class="col">
+              <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/Sonogenic?src=hash&amp;ref_src=twsrc%5Etfw">#Sonogenic</a> <a href="https://twitter.com/hashtag/Keytar?src=hash&amp;ref_src=twsrc%5Etfw">#Keytar</a> 「SHS-500」 <br>INSTRUCTIONAL VIDEO <a href="https://t.co/R30pAlVnC8">pic.twitter.com/R30pAlVnC8</a></p>&mdash; Yamaha de Mexico (@yamahademexico) <a href="https://twitter.com/yamahademexico/status/1128298522154033159?ref_src=twsrc%5Etfw">May 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
+            </div>
+
+          </div>
+
+        <!--Google maps-->
+        <h2>Tiendas cercanas</h2>
+        <div class="container-fluid" style="padding-bottom: 56.25%; position:relative">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240884.3621269299!2d-99.35671228496527!3d19.37702483886489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9b4162e8a7%3A0x456d5647cb7b42f0!2sYamaha%20de%20M%C3%A9xico%20S.A.%20de%20C.V.!5e0!3m2!1sen!2smx!4v1668610992583!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      <div class="col-1">
       </div>
     </div>
   </div>
