@@ -1,21 +1,27 @@
-h2.nombre-producto {
+h2 {
     font-family: 'Oswald', sans-serif;
     color: #333;
     font-weight: bold;
     padding-bottom: 40px;
+    padding-top: 40px;
 }
 
-h3.nombre-producto {
+h3 {
     font-family: 'Oswald', sans-serif;
     color: #fff;
-    text-shadow: .1em .1em 0 #555;
+    text-shadow: .1em .1em .1em #111;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: all 400ms ease;
 }
 
 .card {
     overflow: hidden;
 }
 
-.card-img {
+
+img {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
@@ -27,5 +33,41 @@ h3.nombre-producto {
     -ms-transform: scale(1.2);
     transform: scale(1.2);
     transition: all 800ms ease;
+    filter: brightness(.5);
 }
 
+.card:hover .nombre-producto {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 800ms ease;
+}
+
+.container {
+    position: relative;
+}
+
+.videoiframe {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+blockquote {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
