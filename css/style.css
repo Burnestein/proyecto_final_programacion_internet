@@ -6,7 +6,12 @@ h2 {
     padding-top: 40px;
 }
 
-h3 {
+h3,h4,h5 {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+}
+
+.nombre-producto {
     font-family: 'Oswald', sans-serif;
     color: #fff;
     text-shadow: .1em .1em .1em #111;
@@ -16,19 +21,37 @@ h3 {
     transition: all 400ms ease;
 }
 
+p {
+    font-family: 'Oswald', sans-serif;
+    color: #333; 
+    font-size: 24px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.info-producto {
+    font-family: sans-serif;
+    color: #333; 
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+}
+
+
 .card {
     overflow: hidden;
 }
 
 
-img {
+.imagen-selecprod {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
     transition: all 400ms ease;
 }
 
-.card:hover img {
+.card:hover .imagen-selecprod {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
