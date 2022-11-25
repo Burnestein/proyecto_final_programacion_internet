@@ -1,0 +1,96 @@
+h2 {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(108, 92, 92);
+    font-weight: bold;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+}
+
+.nombre-producto {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-shadow: .1em .1em .1em #111;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: all 400ms ease;
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    color: #333; 
+    font-size: 24px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.info-producto {
+    font-family: sans-serif;
+    color: #333; 
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+}
+
+
+.card {
+    overflow: hidden;
+}
+
+
+.imagen-selecprod {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    transition: all 400ms ease;
+}
+
+.card:hover .imagen-selecprod {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 800ms ease;
+    filter: brightness(.5);
+}
+
+.card:hover .nombre-producto {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 800ms ease;
+}
+
+.container {
+    position: relative;
+}
+
+.videoiframe {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+blockquote {
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
