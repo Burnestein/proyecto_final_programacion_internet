@@ -13,6 +13,7 @@ h1,h2,h3,h4,h5 {
 
 .nombre-producto {
     font-family: 'Oswald', sans-serif;
+    font-size: 3.2vh;
     color: #fff;
     text-shadow: .1em .1em .1em #111;
     -webkit-transform: scale(1);
