@@ -125,3 +125,21 @@
     font-size: 15px;
 
 }
+
+.footer-parrafo {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: left;
+    ;
+}
+
+.footer-titulo {
+    font-family: 'Oswald', sans-serif;
+    color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+}
