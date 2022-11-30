@@ -31,6 +31,13 @@ p {
 
 }
 
+.info-domicilio {
+    font-family: 'Oswald', sans-serif;
+    color: #333; 
+    font-size: 1.5em;
+    margin: 0;
+}
+
 .info-producto {
     font-family: sans-serif;
     color: #333; 
@@ -118,16 +125,21 @@ padding-top: 75%;
 
 .footer-parrafo {
     font-family: 'Oswald', sans-serif;
-    color: #333;
+    color: #fff;
     font-weight: lighter;
     font-size: 12px;
     text-align: left;
-    ;
+    text-decoration: none;
 }
+
+.img-redes-footer {
+    margin: 5px;
+}
+
 
 .footer-titulo {
     font-family: 'Oswald', sans-serif;
-    color: #333;
+    color: #fff;
     font-weight: bold;
     font-size: 14px;
     text-align: left;
@@ -145,7 +157,6 @@ padding-top: 75%;
 
 .fotter{
 	clear: both;
-	
 	
 }
 
@@ -210,7 +221,7 @@ padding-top: 75%;
 
 .pie-pagina{
     width: 100%;
-    background-color: #5DA7DB;
+    background-color: #333;
 }
 .pie-pagina .grupo-1{
     width: 100%;
@@ -257,12 +268,14 @@ padding-top: 75%;
     color: aqua;
 }
 .pie-pagina .grupo-2{
-    background-color: #5837D0;
+    background-color: #222;
     padding: 15px 10px;
     text-align: center;
     color: #000000;
 }
 .pie-pagina .grupo-2 small{
     font-size: 15px;
+    font-family: sans-serif;
+    color: #fff;
 
 }

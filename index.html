@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="es-mx">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-ST3RZVK5M3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-ST3RZVK5M3');
+  </script>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yamaha-México Instrumentos Musicales</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -16,7 +24,7 @@
   <!-- Barra de navegacion-->
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="imagenes/yamaha_purple.svg" width="160px" height="80px"> </a>
+      <a class="navbar-brand" href="index.html"><img src="imagenes/yamaha_purple.svg" width="160" height="80" alt="Yamaha Logo"> </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -37,7 +45,7 @@
               <li><a class="dropdown-item" href="percusion-sinfonica.html">Percusión sinfónica</a></li>
               <li><a class="dropdown-item" href="sintetizadores.html">Sintetizadores</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Yamaha Motores</a></li>
+              <li><a class="dropdown-item" href="https://www.yamaha-motor.com.mx/" target="_blank">Yamaha Motor</a></li>
             </ul>
           </li>
 
@@ -50,10 +58,12 @@
           </li>
 
         </ul>
+        <!--
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Buscar</button>
         </form>
+        -->
       </div>
     </div>
   </nav>
@@ -115,9 +125,9 @@
               <div class="col">
                 <a href="pianos.html">
                   <div class="card text-bg-dark h-100 border-0">
-                    <img class="imagen-selecprod" src="imagenes/productos/pianos.jpg" class="card-img rounded" alt="...">
+                    <img class="imagen-selecprod card-img rounded" src="imagenes/productos/pianos.jpg" alt="...">
                     <div class="card-img-overlay">
-                      <h3 class="nombre-producto ">Pianos</h5>
+                      <h3 class="nombre-producto ">Pianos</h3>
                     </div>
                   </div>
                 </a>
@@ -127,9 +137,9 @@
             <div class="col">
               <a href="teclados.html">
               <div class="card text-bg-dark h-100 border-0">
-                <img class="imagen-selecprod" src="imagenes/productos/instrumentos-de-teclado.jpg" class="card-img rounded" alt="...">
+                <img class="imagen-selecprod card-img rounded" src="imagenes/productos/instrumentos-de-teclado.jpg" alt="...">
                 <div class="card-img-overlay">
-                  <h3 class="nombre-producto">Instrumentos de teclado</h5>
+                  <h3 class="nombre-producto">Instrumentos de teclado</h3>
                 </div>
               </div>
               </a>
@@ -138,9 +148,9 @@
             <div class="col">
               <a href="guitarras-bajos-amplificadores.html">
               <div class="card text-bg-dark h-100 border-0">
-                <img class="imagen-selecprod" src="imagenes/productos/guitarras.jpg" class="card-img rounded" alt="...">
+                <img class="imagen-selecprod card-img rounded" src="imagenes/productos/guitarras.jpg" alt="...">
                 <div class="card-img-overlay">
-                  <h3 class="nombre-producto">Guitarras, Bajos & Amplificadores</h5>
+                  <h3 class="nombre-producto">Guitarras, Bajos & Amplificadores</h3>
                 </div>
               </div>
             </a>
@@ -149,9 +159,9 @@
             <div class="col">
               <a href="baterias.html">
               <div class="card text-bg-dark h-100 border-0">
-                <img class="imagen-selecprod" src="imagenes/productos/baterias.jpg" class="card-img rounded" alt="...">
+                <img class="imagen-selecprod card-img rounded" src="imagenes/productos/baterias.jpg" alt="...">
                 <div class="card-img-overlay">
-                  <h3 class="nombre-producto">Baterías</h5>
+                  <h3 class="nombre-producto">Baterías</h3>
                 </div>
               </div>
             </a>
@@ -160,9 +170,9 @@
             <div class="col">
               <a href="instrumentos-viento-madera-metal.html">
               <div class="card text-bg-dark h-100 border-0">
-                <img class="imagen-selecprod" src="imagenes/productos/instrumentos-de-viento.jpg" class="card-img rounded" alt="...">
+                <img class="imagen-selecprod card-img rounded" src="imagenes/productos/instrumentos-de-viento.jpg" alt="...">
                 <div class="card-img-overlay">
-                  <h3 class="nombre-producto">Instrumentos de viento madera y metal</h5>
+                  <h3 class="nombre-producto">Instrumentos de viento madera y metal</h3>
                 </div>
               </div>
             </a>
@@ -171,9 +181,9 @@
             <div class="col">
               <a href="instrumentos-de-arco.html">
               <div class="card text-bg-dark h-100 border-0">
-                <img class="imagen-selecprod" src="imagenes/productos/instrumentos-de-arco.jpg" class="card-img rounded" alt="...">
+                <img class="imagen-selecprod card-img rounded" src="imagenes/productos/instrumentos-de-arco.jpg" alt="...">
                 <div class="card-img-overlay">
-                  <h3 class="nombre-producto">Instrumentos de arco</h5>
+                  <h3 class="nombre-producto">Instrumentos de arco</h3>
                 </div>
               </div>
             </a>
@@ -182,9 +192,9 @@
             <div class="col">
               <a href="percusion-sinfonica.html">
               <div class="card text-bg-dark h-100 border-0">
-                <img class="imagen-selecprod" src="imagenes/productos/percusion-sinfonica.jpg" class="card-img rounded" alt="...">
+                <img class="imagen-selecprod card-img rounded" src="imagenes/productos/percusion-sinfonica.jpg" alt="...">
                 <div class="card-img-overlay">
-                  <h3 class="nombre-producto">Percusión Sinfónica</h5>
+                  <h3 class="nombre-producto">Percusión Sinfónica</h3>
                 </div>
               </div>
             </a>
@@ -193,9 +203,9 @@
             <div class="col">
               <a href="sintetizadores.html">
               <div class="card text-bg-dark h-100 border-0">
-                <img class="imagen-selecprod" src="imagenes/productos/sintetizadores.jpg" class="card-img rounded" alt="...">
+                <img class="imagen-selecprod card-img rounded" src="imagenes/productos/sintetizadores.jpg" alt="...">
                 <div class="card-img-overlay">
-                  <h3 class="nombre-producto">Sintetizadores & Herramientas de producción musical</h5>
+                  <h3 class="nombre-producto">Sintetizadores & Herramientas de producción musical</h3>
                 </div>
               </div>
             </a>
@@ -209,7 +219,7 @@
         <h2>Redes sociales</h2>
         
         <div class="container-fluid" style="padding-bottom: 56.25%; position:relative">
-          <iframe class="videoiframe" src="https://www.youtube.com/embed/Ow50FUu96QY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="videoiframe" src="https://www.youtube.com/embed/Ow50FUu96QY?rel=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <div class="container-fluid" style="position:relative">
@@ -247,18 +257,31 @@
               <blockquote class="twitter-tweet"><p lang="es" dir="ltr">El Concierto núm. 1 en si bemol mayor, Op. 23 de Chaikovski lo interpretó Fabrizzio Vargas Saavedra, el cuarto semifinalista de IX Concurso Nacional de Piano Angélica Morales- YAMAHA. <a href="https://twitter.com/bellasartesinba?ref_src=twsrc%5Etfw">@bellasartesinba</a> <a href="https://twitter.com/yamahademexico?ref_src=twsrc%5Etfw">@yamahademexico</a> <a href="https://t.co/33YYZB3iHG">pic.twitter.com/33YYZB3iHG</a></p>&mdash; MúsicaINBAL (@MusicaINBA) <a href="https://twitter.com/MusicaINBA/status/1129435734128168960?ref_src=twsrc%5Etfw">May 17, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
             </div>
 
-            <div class="col-md-auto">
-              <blockquote class="twitter-tweet"><p lang="es" dir="ltr">Por el alto nivel de los participantes, el jurado del IX Concurso Nacional de Piano Angélica Morales-Yamaha, decidió por cuatro finalistas en vez de los tres que tradicionalmente eran seleccionados.<br>Felicidades!!!<a href="https://twitter.com/bellasartesinba?ref_src=twsrc%5Etfw">@bellasartesinba</a> <a href="https://twitter.com/yamahademexico?ref_src=twsrc%5Etfw">@yamahademexico</a> <a href="https://t.co/2NGrRVd1Hs">pic.twitter.com/2NGrRVd1Hs</a></p>&mdash; MúsicaINBAL (@MusicaINBA) <a href="https://twitter.com/MusicaINBA/status/1129539076661620737?ref_src=twsrc%5Etfw">May 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>            
-            </div>
-
           </div>
         </div>
 
         <!--Google maps-->
         <h2>Tiendas cercanas</h2>
-        <div class="container-fluid" style="padding-bottom: 56.25%; position:relative">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240884.3621269299!2d-99.35671228496527!3d19.37702483886489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9b4162e8a7%3A0x456d5647cb7b42f0!2sYamaha%20de%20M%C3%A9xico%20S.A.%20de%20C.V.!5e0!3m2!1sen!2smx!4v1668610992583!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class=" row row-cols-1 row-cols-md-2 g-0">
+          <div class="col-auto">
+            <div class="container" style="padding-bottom: 56.25%; position:relative; ">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240884.3621269299!2d-99.35671228496527!3d19.37702483886489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff9b4162e8a7%3A0x456d5647cb7b42f0!2sYamaha%20de%20M%C3%A9xico%20S.A.%20de%20C.V.!5e0!3m2!1sen!2smx!4v1668610992583!5m2!1sen!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-auto">
+            <div class="container text-start">
+              <p class="info-domicilio">Yamaha de México, S.A. de C.V.</p>
+              <p class="info-domicilio">Av. Insurgentes Sur 1647 Piso 9, Col. San José Insurgentes, Delegación Benito Juárez, México, D.F., C.P. 03900.</p>
+              <p class="info-domicilio">Tel. 58-04-06-00</p>
+              <p class="info-domicilio">01-800-2YAMAHA</p>
+              <p class="info-domicilio">info@yamaha.com.mx</p>
+            </div>
+          </div>
         </div>
+        
+        
+        
 
       </div>
 
@@ -296,10 +319,18 @@
 
         <div class="col mb-5 mt-5">
           <p class="footer-titulo"><strong>Redes Sociales</strong></p><br>
-          <a href="https://www.facebook.com/YamahaMexico/?_rdc=1&_rdr" class="footer-parrafo">Facebook</a><br>
-          <a href="https://twitter.com/yamahademexico?lang=en" class="footer-parrafo">Twitter</a><br>
-          <a href="https://www.instagram.com/yamahademexico/" class="footer-parrafo">Instagram</a><br>
-          <a href="https://www.youtube.com/user/yamahademexico?app=desktop" class="footer-parrafo">YouTube</a><br>
+          <a href="https://www.facebook.com/YamahaMexico/?_rdc=1&_rdr" target="_blank" class="footer-parrafo">
+            <img class="img-redes-footer" src="imagenes/facebook.png" alt="Facebook" width="10%">
+          </a>
+          <a href="https://twitter.com/yamahademexico?lang=en" target="_blank" class="footer-parrafo">
+            <img class="img-redes-footer" src="imagenes/twitter.png" alt="Twitter" width="10%">
+            </a>
+          <a href="https://www.instagram.com/yamahademexico/" target="_blank" class="footer-parrafo">
+            <img class="img-redes-footer" src="imagenes/instagram.png" alt="Instagram" width="10%">
+            </a>
+          <a href="https://www.youtube.com/user/yamahademexico?app=desktop" target="_blank" class="footer-parrafo">
+            <img class="img-redes-footer" src="imagenes/youtube.png" alt="YouTube" width="10%">
+            </a>
 
         </div>
 
@@ -310,6 +341,7 @@
 
     <div class="grupo-2">
         <small>&copy; 2022 <b>Yamaha de México S.A. de C.V.</b> - Todos los Derechos Reservados.</small>
+      </div>
     
   </footer>
 
